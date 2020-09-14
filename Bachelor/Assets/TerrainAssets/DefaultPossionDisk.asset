@@ -1,0 +1,56 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99701728b5c3b9f488577ce4edc7f099, type: 3}
+  m_Name: DefaultPossionDisk
+  m_EditorClassIdentifier: 
+  autoUpdate: 0
+  textureData: {fileID: 11400000, guid: ad3ed01192b5cf146b0005e1d5b6fa96, type: 2}
+  layer:
+  - name: Water
+    multiplier: 1
+    noObjects: 1
+    startHeight: 0
+    objectsToPlace: []
+  - name: Sand 1
+    multiplier: 1
+    noObjects: 1
+    startHeight: 0.146
+    objectsToPlace: []
+  - name: Moss 1
+    multiplier: 0.256
+    noObjects: 0
+    startHeight: 0.184
+    objectsToPlace:
+    - {fileID: 1130392368877672, guid: 1ea71f643417d124d91e53eae7c666a6, type: 3}
+    - {fileID: 1182756067964316, guid: fc9f550802bde56499ac8b64cac565f0, type: 3}
+    - {fileID: 1325612589990884, guid: e377b882a13405d4b9d5c3e8e747595e, type: 3}
+  - name: Cliffwall 1
+    multiplier: 0.292
+    noObjects: 0
+    startHeight: 0.339
+    objectsToPlace:
+    - {fileID: 1467454332595294, guid: fe8147825b813cf46b4ef685a3ea56a8, type: 3}
+    - {fileID: 1387755814615386, guid: 898874364bf16b6478fe589c550d3e59, type: 3}
+    - {fileID: 1182756067964316, guid: fc9f550802bde56499ac8b64cac565f0, type: 3}
+  - name: Mud 1
+    multiplier: 0.328
+    noObjects: 0
+    startHeight: 0.379
+    objectsToPlace:
+    - {fileID: 1031576294622548, guid: 345d6370cf80aca4e971c8de6b0e69db, type: 3}
+    - {fileID: 1532667504379520, guid: dbbffa6287a94b24c80e0839e6696216, type: 3}
+    - {fileID: 1467718062152118, guid: 7df36f4afc1dd884e81156cd2cb6545d, type: 3}
+  - name: Snow 1
+    multiplier: 1
+    noObjects: 1
+    startHeight: 0.88
+    objectsToPlace: []
